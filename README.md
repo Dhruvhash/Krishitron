@@ -59,7 +59,7 @@ Replace Webhook URL in googleScriptUrl
 Upload & Open Serial Monitor
 📢 Important Notes
 ⚠️ This is an IoT project and cannot be tested without hardware.
-⚠️ Google Sheets has a request limit; sending data every 1 second may cause issues.
+⚠️ Google Sheets has a request limit; sending data every 10 min may cause issues.
 ⚠️ Ensure Blynk & OpenWeatherMap API keys are correct before uploading.
 
 👨‍💻 Contributing
