@@ -100,7 +100,7 @@ void setup() {
   timer.setInterval(100L, DHT11sensor);
   timer.setInterval(500L, checkPhysicalButton);
   timer.setInterval(120000L, fetchWeatherData);  // Fetch Weather Every 2 Minutes
-  timer.setInterval(60000L, sendDataToGoogleSheets);  // Send data to Google Sheets every 1 minute
+  timer.setInterval(600000L, sendDataToGoogleSheets);  // Send data to Google Sheets every 1 minute
   
   // SSL is required for Google services but we'll skip verification for ESP8266
   secureClient.setInsecure();
